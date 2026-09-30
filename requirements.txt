@@ -1,0 +1,26 @@
+# 核心 LLM 本地运行
+ollama>=0.3.0
+
+# LangChain 框架（连接本地模型 + 提示词管理）
+langchain>=0.3.0
+langchain-community>=0.0.50
+langchain-ollama>=0.3.0
+langgraph>=1.2.0
+
+# 基础工具
+python-dotenv>=1.0.0
+
+jieba3k>=0.35.1
+
+# 测试
+pytest>=8.0.0
+
+# Excel → Wiki
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# HTTP API
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-multipart>=0.0.9
